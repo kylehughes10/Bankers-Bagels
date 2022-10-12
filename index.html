@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheetshome.css">
+</head>
+<body>
+    <!--<nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Banks</a></li>
+            </ul>
+        </div>
+    </nav>-->
+    <section>
+        <div class="main-container">
+            <div class="main-content">
+                <div class="h1-container">
+                    <h1>Bankers & Bagels</h1>
+                </div>    
+                <h3>The Event for the Next Generation of Bankers</h3>
+            </div>
+            <div class="event-section">
+                <div class="span-container">
+                    <span><em><b>Next Event:</b></em><date> 10:00am - 12:00pm November 1st,2022</date></span>
+                    <span><em><b>Location:</b></em> Southeastern Oklahoma State University - Student Union 2<sup>nd</sup>Floor</span>
+                    <span><em><b>Price:</b></em> Free</span>
+                </div>
+            </div>
+            <!--
+            <div class="main-buttons">
+			    <button><a href="#About">Learn More</a></button>
+			    <button> <a href="#Register">Register Now</a></button>
+		    </div>
+            -->
+        </div>
+    </section> 
+    <section>       
+        <div class="form-container">
+            <form action="https://formsubmit.co/kylehughes00@gmail.com" method="POST">
+                <h3>Register for Event</h3>
+                <h4>Your Name</h4>
+                <input name="Name" type="text" id="name" placeholder="First & Last Name"required>
+                <h4>Your Email</h4>
+                <input name="Email" type="email" id="email"placeholder="e.g.hello@contact.com"required> 
+                <h4>Phone</h4>
+                <input name="Phone Number" type="text" id="phone" placeholder="##########"required>
+                <h4>Planning to Attend:</h4>
+                <select name="Attend" id="event" required>
+                    <option disable selected value>-- select an option --</option>
+                    <option>In-Person</option>
+                    <option>Virtual</option>
+                </select>
+                <h4>Introduce yourself or include additional details (not required):</h4>
+                <textarea name="Message" id="message" rows="4"></textarea>
+                <button type="submit">Submit</button>
+                <input type="hidden" name="_subject" value="Bankers & Bagels">
+            </form>
+        </div>
+    </section>  
+</body>
+</html>
